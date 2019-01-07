@@ -140,7 +140,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/EEkbMNH :scroll: **`)
         
    message.author.sendEmbed(embed)
    
@@ -152,7 +152,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/EEkbMNH :scroll: **`)
         
    message.author.sendEmbed(embed)
    
@@ -164,7 +164,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/EEkbMNH :scroll: **`)
          
    message.author.sendEmbed(embed)
    
@@ -188,7 +188,7 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-        .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+        .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/EEkbMNH :scroll: **`)
       
    message.author.sendEmbed(embed)
    
@@ -269,7 +269,7 @@ client.on('message', message => {
          .setDescription(`**  :video_game: الألعاب :video_game:**
   ** -rps | حجر ورقة مقص ** :video_game:
 
-  ** -speed | اسرع كتابن ** :video_game:
+  ** -speed | اسرع كتابة ** :video_game:
 
   ** -quas | اسئلة عامة ** :video_game:
 
@@ -2436,7 +2436,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 var prefix = "-";
-       if(message.content === prefix + "mutechannel") {
+       if(message.content === prefix + "قفل") {
                            if(!message.channel.guild) return message.reply('** This command only for servers**');
 
    if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply(' **__ليس لديك صلاحيات__**');
@@ -2448,7 +2448,7 @@ var prefix = "-";
               });
                 }
 //FIRE BOT
-    if(message.content === prefix + "unmutechannel") {
+    if(message.content === prefix + "فتح") {
                         if(!message.channel.guild) return message.reply('** This command only for servers**');
 
    if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**__ليس لديك صلاحيات__**');
@@ -3083,7 +3083,7 @@ var prefix = "-";
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-/*جميع الحقوق محفوظهه لريبل ولسيرفر كودز
+/*جميع الحقوق محفوظهه لعزو وسيرفر كينج ريواردز
 رآح يرسل للأونر تحذير + م يتطلب ملفات سويته لكم داتا مؤقت
 سو روم بأسم log 
 أو غيره من الكود عشان يرسل هنا التحذير
