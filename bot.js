@@ -3316,7 +3316,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : ezookik ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`#help | By ezoo_kik_yt`,"http://twitch.tv/S-F")
+client.user.setGame(`#help | By ezookik`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
