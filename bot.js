@@ -3309,7 +3309,16 @@ hours = 12;
     });
   }
 });
-
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : i1Suhaib`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : ezookik ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`#help | By ezoo_kik_yt`,"http://twitch.tv/S-F")
+client.user.setStatus("dnd")
+});
 
 
 client.login(process.env.BOT_TOKEN);
